@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+  .konten1{
+    background-image: url('../image/background2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
