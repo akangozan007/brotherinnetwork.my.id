@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+  .konten1{
+    background-repeat:repeat;
+    text-shadow: 1px 1px #2b3035;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(248,249,250, 0.5); 
+    background-image: url('../image/7103.jpg');
+    background-size: cover; 
+    background-blend-mode:hard-light;
+    background-position: center; /* Posisi gambar di tengah latar belakang */
+   background-repeat: round;
+  
+  }
+  .konten2 {
+    /* Gaya untuk konten Anda */
+    height: 2000px; /* Atur ketinggian konten agar lebih panjang */
+}
+
+  main{
+    /* background-image: url('../image/backgroundland.jpg'); */
+    background-repeat:repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../image/backgroundland.jpg'); /* Ganti dengan path ke gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll; /* Memungkinkan scrolling vertikal */
+  }
